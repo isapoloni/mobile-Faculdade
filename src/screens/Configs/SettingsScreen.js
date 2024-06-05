@@ -11,7 +11,6 @@ export default function SettingsScreen() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-
       <View style={styles.setting}>
         <View style={styles.labelContainer}>
           <Icon name="volume-high-outline" size={24} color="#333" />

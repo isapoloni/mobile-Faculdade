@@ -4,6 +4,7 @@ import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native
 const projects = [
   { id: '1', title: 'Projeto 1 - Biscoito da sorte', screen: 'Biscoito da sorte' },
   { id: '2', title: 'Projeto 2 - Configurações', screen: 'Configurações' },
+  { id: '3', title: 'Projeto 3 - Aplicativo de Guia Turístico', screen: 'Guia Turístico' },
 ];
 
 export default function HomeScreen({ navigation }) {

@@ -29,7 +29,6 @@ export default function BiscoitoDaSorte() {
   ];
 
   
-
   const brokenBiscoito = () => {
     setImgBiscoito(BiscoitoQuebrado);
     setTextButton('Quebrar outro');
