@@ -8,6 +8,7 @@ import GuiaTuristico from './src/screens/GuiaTuristico/GuiaTuristico';
 import PontosHistoricos from './src/screens/PontosHistoricos/PontosHistoricos';
 import Restaurantes from './src/screens/Restaurantes/Restaurantes';
 import AtivadadesArLivre from './src/screens/AtividadesArLivre/AtividadesArLivre';
+import HomePresPrud from './src/screens/HomePresPrud/HomePresPrud';
 
 const Stack = createStackNavigator();
 
@@ -23,6 +24,7 @@ export default function App() {
         <Stack.Screen name="Pontos Históricos" component={PontosHistoricos} />
         <Stack.Screen name="Restaurantes" component={Restaurantes} />
         <Stack.Screen name="Atividades ao Ar Livre" component={AtivadadesArLivre} />
+        <Stack.Screen name="Informativo Presidente Prudente" component={HomePresPrud} />
       </Stack.Navigator>
     </NavigationContainer>
   );
